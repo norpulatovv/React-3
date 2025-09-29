@@ -13,10 +13,10 @@ function App() {
     <div>
       <div style={{
         maxWidth: "1000px", margin: "0px auto", display: "flex", alignItems: "center",
-        justifyContent: "center", marginTop: "50px", backgroundColor: now > 6 && now < 18 ? "white" : "black",
-        color: now > 6 && now < 18 ? "black" : "white"
+        justifyContent: "center", marginTop: "50px", 
       }}>
-        <div className='hero-div' style={{ width: "800px", height: "600px" }}>
+        <div className='hero-div' style={{ width: "800px", height: "600px", backgroundColor: now > 17 && now < 18 ? "white" : "black",
+        color: now > 17 && now < 18 ? "black" : "white"}}>
           <div style={{ display: "flex", padding: "20px", paddingLeft: "30px", flexDirection: "column" }}>
             <h1>Hello my name is: <span style={{ color: "yellow" }}>{firstName}</span> </h1>
             <h1>This is the day: <span style={{ color: "yellow" }} >{day} </span> </h1>
